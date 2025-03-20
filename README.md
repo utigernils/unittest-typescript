@@ -6,8 +6,8 @@ GitHub (`git push`).
 
 Achten Sie auch darauf, dass Sie aussagekräftige Commit Messages verwenden:
 
-- gut: `'Aufgabe 4.1: divide()-Methode umgesetzt, damit der Testfall durchläuft'`
-- gut: `'Exercise 4.1: implemented divide() method in order to make test case pass'`
+- gut: `'Aufgabe 4.1: divide()-Funktion umgesetzt, damit der Testfall durchläuft'`
+- gut: `'Exercise 4.1: implemented divide() function in order to make test case pass'`
 - schlecht: `'Aufgabe gelöst'`
 - schlecht: `'finished exercise'`
 
@@ -168,7 +168,7 @@ verwenden Sie eine leere Liste. Was denken Sie, wird bei der Ausführung des
 Tests passieren?
 
 Fangen Sie den Fehler im Produktivcode ab, sodass ein `Error` geworfen wird,
-wenn die Methode mit einer leeren Liste aufgerufen wird.
+wenn die Funktion mit einer leeren Liste aufgerufen wird.
 
 ## Aufgabe 6: Median berechnen
 
