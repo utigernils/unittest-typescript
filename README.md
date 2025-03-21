@@ -25,6 +25,13 @@ Benutzernamen ersetzen müssen:
 Öffnen Sie ein Terminal (Bash) und wechseln Sie ins Verzeichnis
 `unittest-typescript`.  Geben Sie folgenden Befehl ein:
 
+    npm install
+
+Damit werden alle vorkonfigurierten Abhänigkeiten gemäss `package.json`
+installiert.
+
+Führen Sie anschliessend einen Testfall aus:
+
     npx jest calculator.test.ts
 
 Wenn alles geklappt hat, sollte die Ausgabe ungefähr folgendermassen aussehen
