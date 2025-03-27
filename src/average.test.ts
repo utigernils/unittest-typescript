@@ -23,3 +23,7 @@ test("mean of five numbers", () => {
   // Assert
   expect(actual).toBe(expected);
 });
+
+test('mean of no numbers', () => {
+  expect(() => mean([])).toThrow("Cannot calculate mean of empty array");
+});
